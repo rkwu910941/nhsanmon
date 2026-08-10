@@ -9,7 +9,9 @@ export default defineNuxtConfig({
       icons: [
         'lucide:book-open-text',
         'lucide:building-2',
-        'lucide:log-in'
+        'lucide:log-in',
+        'material-symbols:storage',
+        'material-symbols:switch'
       ]
     }
   }
