@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --breakpoint-2xl: 1920px;
+
+  --color-brand-50: #fef2f2;
+  --color-brand-100: #fee2e2;
+  --color-brand-200: #fecaca;
+  --color-brand-300: #fca5a5;
+  --color-brand-400: #f87171;
+  --color-brand-500: #ef4444;
+  --color-brand-600: #dc2626;
+  --color-brand-700: #b91c1c;
+  --color-brand-800: #991b1b;
+  --color-brand-900: #7f1d1d;
+  --color-brand-950: #450a0a;
+}
+
+:root {
+  --ui-header-height: 3rem;
+  --ui-primary: rgb(000, 000, 000);
+  --ui-sannav:  rgb(255, 255, 255);
+  --ui-bg: #d3c7c7;
+  --ui-bg-muted: #f3f4f6;
+  --ui-bg-elevated: #fffff0;
+}
+.dark {
+  --ui-primary: rgb(000, 000, 000);
+  --ui-sannav:  rgb(255, 255, 255);
+  --ui-bg: #404655;
+  --ui-bg-muted: #111827;
+  --ui-bg-elevated: #1e293b;
+}
