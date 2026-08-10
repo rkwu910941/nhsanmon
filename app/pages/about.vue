@@ -28,8 +28,8 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 const items: NavigationMenuItem[] = [
   { label: 'A1', icon: 'i-lucide-hard-drive', to: '/about/a1' },
   { label: 'A2', icon: 'i-lucide-hard-drive', to: '/about/a2' },
-  { label: 'A3', icon: 'i-lucide-hard-drive', to: '/test/random' },
-  { label: 'A4', icon: 'i-lucide-hard-drive', to: '/test/fullscreen' },
+  { label: 'A3', icon: 'i-lucide-hard-drive', to: '/about/a3' },
+  { label: 'A4', icon: 'i-lucide-hard-drive', to: '/about/a4' },
   { label: 'HOME', icon: 'i-lucide-home', to: '/'}
 ]
 </script>
