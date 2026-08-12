@@ -6,7 +6,8 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/image',
     '@nuxt/icon',
-    '@nuxthub/core'
+    '@nuxthub/core',
+    'nuxt-auth-utils'
   ],
   css: ['~/assets/css/main.css'],
   hub: { db: 'sqlite' },
@@ -25,5 +26,5 @@ export default defineNuxtConfig({
         'material-symbols:switch'
       ]
     }
-  }
+  },
 })
